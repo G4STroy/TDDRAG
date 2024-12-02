@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^1.7.5",
+    "formidable": "^3.5.1",
+    "python-shell": "^5.0.0"
+  }
+}

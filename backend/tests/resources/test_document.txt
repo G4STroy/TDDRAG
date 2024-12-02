@@ -1,0 +1,715 @@
+Title: Prioritization
+Published Date: April 3, 2024
+Author: Product School, Lean Agile Intelligence, Roman Pichler
+Tags: Product Management, Prioritization, Backlog Prioritization, Prioritization Techniques, WSJF, Kano, RICE
+Summary: This document addresses the critical aspect of prioritization within Product Management. It outlines the importance of prioritization, its benefits and challenges, introduces various prioritization frameworks, and includes insights from industry leaders on effective prioritization strategies. It emphasizes prioritization's role in ensuring product success by focusing on impactful features and strategic alignment with customer needs.
+---
+
+One of the most challenging aspects of Product Management is prioritization. If you’ve transitioned to Product from another discipline, you might already think you know how to do it. You choose which task to work on first, which deadline needs to be met above all others, and which order to answer your emails in.
+
+Priorities, right? Wrong!
+
+In product management, prioritization is on a whole other level! The engineers are telling you that Feature A will be really cool and will take you to the next level. But a key stakeholder is gently suggesting that Feature B should be included in V1. Finally, your data analyst is convinced that Feature B is completely unnecessary and that users are crying out for Feature C.
+
+Who decides how to prioritize the features? You do.
+
+blog image 1: 3 prioritization techniques
+Prioritization is absolutely essential for Product Teams and product development. It can feel daunting, but for a successful launch, it has to be done.
+
+Luckily, a whole community of Product experts has come before you. They’ve built great things, including some excellent prioritization frameworks!
+
+Quick summary
+
+Here’s what we’ll cover in this article: 
+
+The benefits and challenges of prioritization
+
+The best prioritization frameworks and when to use them 
+
+How real Product Leaders implement prioritization at Microsoft, Amazon, and HSBC
+
+Common prioritization mistakes
+
+Frequently Asked Questions
+
+Benefits and challenges of prioritization
+
+Before we dive into the different prioritization models, let’s talk about why prioritization is so important and what holds PMs back.
+
+Benefits of effective feature prioritization
+
+Enhanced focus on key objectives: Prioritization allows you to concentrate on tasks that align closely with your product's core goals. For example, when Spotify prioritized personalized playlists, it significantly boosted user engagement, aligning perfectly with its goal of providing a unique user experience.
+
+Resource optimization: You can allocate your team’s time and your company’s resources more efficiently. Focusing on fewer, more impactful projects can lead to greater innovation and success.
+
+Improved decision-making: When you prioritize, you're essentially making strategic decisions about where to focus efforts. This clarity in decision-making can lead to more successful outcomes, avoiding the pitfalls of cognitive biases like recency bias and the sunk cost fallacy.
+
+Strategic focus: Prioritization aligns tasks with the company's broader strategic goals, ensuring that day-to-day activities contribute to long-term objectives.
+
+Consider the example of Apple Inc. under the leadership of Steve Jobs. One of Jobs' first actions when he returned to Apple in 1997 was to slash the number of projects and products the company was working on.
+
+Apple refocused its efforts on just a handful of key projects. This ruthless prioritization allowed Apple to focus on quality rather than quantity, leading to the development of groundbreaking products like the iPod, iPhone, and iPad. 
+
+Stress reduction: From customer interactions to executive presentations, the responsibilities of a PM are vast and varied, often leading to a risk of burnout if not managed adeptly. For more on this, check out this talk by Glenn Wilson, Google Group PM, on Play the Long Game When Everything Is on Fire.
+
+
+Challenges of prioritization
+
+Managing stakeholder expectations: Different stakeholders may have varying priorities. For instance, your engineering team might prioritize feature development, while marketing may push for more customer-centric enhancements. Striking a balance can be challenging.
+
+Adapting to changing market conditions: The market is dynamic, and priorities can shift unexpectedly. When the pandemic hit, Zoom had to quickly reprioritize to cater to a massive surge in users, emphasizing scalability and security over other planned enhancements.
+
+Dealing with limited information: Even in the PM & PMM world, having a strong data-driven team is more often a dream rather than a current reality. Even when there is data, you can’t know everything. Amazon’s decision to enter the cloud computing market with AWS was initially seen as a risky move, but they prioritized the gamble and it paid off spectacularly.
+
+Limited resources: Smaller businesses and startups don’t have the luxury of calmly building lots of small features, hoping that some of them will improve the product. The less funding a company has, the fewer mistakes (iterations) it can afford to make when building an MVP or figuring out Product-Market Fit.
+
+Bias: If you read The Mom Test book, you probably know that people will lie about their experience with your product to make you feel comfortable. This means that product prioritization can be influenced by biased opinions, having “nice-to-have” features at the top of the list.
+
+Lack of alignment: Different teams can have varying opinions as to what is “important”. When these differences aren’t addressed, product prioritization can become a fight between what brings Product-Led Growth, more leads, higher Net Promoter Score, better User Experience, higher retention, or lower churn. Lack of alignment is not the last issue startups face when prioritizing features.
+
+Prioritization Frameworks
+
+There are a lot of prioritization models for PMs to employ. While it’s great to have so many tools at your disposal, it can also be a bit overwhelming. You might even ask yourself which prioritization framework you should…prioritize. 
+
+In reality, each model is like a different tool in your toolbox. Just like a hammer is better than a wrench at hammering nails, each model is right depending on the type of prioritization task at hand. The first step is to familiarize yourself with the most trusty frameworks out there. So, without further ado, let’s get started.
+
+The MoSCoW method
+
+Known as the MoSCoW Prioritization Technique or MoSCoW Analysis, MoSCoW is a method used to easily categorize what’s important and what’s not. The name is an acronym of four prioritization categories: Must have, Should have, Could have, and Won’t have.
+
+It’s a particularly useful tool for communicating to stakeholders what you’re working on and why.
+
+MoSCoW method prioritization method
+According to MoSCoW, all the features go into one of four categories:
+
+Must Have
+These are the features that will make or break the product. Without them, the user will not be able to get value from the product or won’t be able to use it. These are the “painkillers” that form the why behind your product, and often are closely tied to how the product will generate revenue.
+
+Should Have
+These are important features but are not needed to make the product functional. Think of them as your “second priorities”. They could be enhanced options that address typical use cases. 
+
+Could Have
+Often seen as nice to have items, not critical but would be welcomed. These are “vitamins”, not painkillers. They might be integrations and extensions that enhance users’ workflow.
+
+Won’t Have
+Similar to the “money pit” in the impact–effort matrix framework, these are features that are not worth the time or effort they would require to develop.
+
+MoSCoW analysis example
+Pros of using this framework: MoSCoW is ideal when looking for a simplified approach that can involve the less technical members of the company and one that can easily categorize the most important features.
+
+Cons of using this framework: It is difficult to set the right number of must-have features and, as a result, your Product Backlog may end up with too many features that tax the development team.
+
+RICE scoring
+
+RICE scoring prioritization method
+Developed by the Intercom team, the RICE scoring system compares Reach, Impact, Confidence, and Effort.
+
+Reach
+
+Reach centers the focus on the customers by thinking about how many people will be impacted by a feature or release. You can measure this using the number of people who will benefit from a feature in a certain period of time. For example, “How many customers will use this feature per month?”
+
+Impact
+
+Now that you’ve thought about how many people you’ll reach, it’s time to think about how they’ll be affected. Think about the goal you’re trying to reach. It could be to delight customers (measured in positive reviews and referrals) or reduce churn.
+
+Intercom recommends a multiple-choice scale:
+
+3 = massive impact
+
+2 = high impact
+
+1 = medium impact
+
+0.5 = low impact
+
+0.25 = minimal impact
+
+intercom rice prioritization
+Confidence
+
+A confidence percentage expresses how secure team members feel about their assessments of reach and impact. The effect this has is that it de-prioritizes features that are too risky.
+
+Generally, anything above 80% is considered a high confidence score, and anything below 50% is unqualified.
+
+Effort
+
+Considering effort helps balance cost and benefit. In an ideal world, everything would be high-impact/low-effort, although this is rarely the case. You’ll need information from everyone involved (designers, engineers, etc.) to calculate effort. 
+
+Think about the amount of work one team member can do in a month, which will naturally be different across teams. Estimate how much work it’ll take each team member working on the project. The more time allotted to a project, the higher the reach, impact, and confidence will need to be to make it worth the effort.
+
+Calculating a RICE score
+
+Now you should have four numbers representing each of the 4 categories. To calculate your score, multiply Reach, Impact, and Confidence. Then divide by Effort.
+
+Pros of using this framework:  
+
+Its spreadsheet format and database approach are awesome for data-focused teams. This method also filters out guesswork and the “loudest voice” factor because of the confidence metric. For teams that have a high volume of hypotheses to test, having a spreadsheet format is quick and scalable.
+
+Cons of using this framework: 
+
+The RICE format might be hard to digest if your startup team consists mainly of visual thinkers. When you move fast, it’s essential to use a format that everyone will find comfortable. When there are 30+ possible features for complex products, this becomes a long spreadsheet to digest.
+
+Impact–Effort Matrix 
+
+The Impact-Effort Matrix is similar to the RICE method but better suited to visual thinkers. This 2-D matrix plots the “value” (impact) of a feature for the user vs the complexity of development, otherwise known as the “effort”. 
+
+When using the impact–effort matrix, the Product Owner first adds all features or product hypotheses. Then the team that executes on these product hypotheses votes on where to place the features on the impact and effort dimensions. Each feature ends up in one of 4 quadrants:
+
+Quick wins
+Low effort and high impact are features or ideas that will bring growth. 
+
+Big bets
+High effort but high impact. These have the potential to make a big difference but must be well-planned. If your hypothesis fails here, you waste a lot of development time. 
+
+Fill-ins
+Low value but also low effort. Fill-ins don’t take much time but they still should only be worked on if other more important tasks are complete. These are good tasks to focus on while waiting on blockers to higher priority features to be worked out. 
+
+Money pit
+Low value and high effort features are detrimental to morale and the bottom line. They should be avoided at all costs.
+
+impact-effort matrix example
+Pros of using this framework:  It allows quick prioritization and works well when the number of features is small. It can be shared across the whole startup team, as it’s easy to understand at first glance.
+
+Cons of using this framework:  If two product hypotheses are “quick wins”, which should go first? For this reason, it’s not the best framework when there are a lot of features. Also, beware of “fill-ins”, as they can take much more time and resources than expected and create loss of focus.
+
+Kano model
+
+Professor Noriaki Kano, a Japanese educator and influential figure in quality management, developed the Kano model in the 1980s. Since then, it has been widely used by organizations seeking to prioritize customer satisfaction.
+
+Kano model glossary
+Delighters: The features that customers will perceive as going above and beyond their expectations. These are the things that will differentiate you from your competition.
+
+Performance features: Customers respond well to high investments in performance features.
+
+Basic features: The minimum expected by customers to solve their problems. Without these, the product is of little use to them.
+
+The main idea behind the Kano model is that if you focus on the features that come under these three brackets, the higher your level of customer satisfaction will be.
+
+To find out how customers value certain features, use questionnaires asking how their experience of your product would change with or without them.
+
+As time goes along, you may find that features that used to be delighters move down closer towards ‘Basic Features’ as technology catches up and customers have come to expect them, so it’s important to reassess periodically.
+
+Pros of using this framework: Because the model differentiates between basic needs and features that can delight customers, it prioritizes more customer-focused products and services.
+
+Cons of using this framework: The categorization of features into Kano’s categories can be subjective, leading to inconsistencies. It doesn't directly address other crucial aspects like cost, time-to-market, or feasibility, which can also significantly impact product success.
+
+Feasibility, Desirability, and Viability scorecard
+
+Developed by IDEO in the early 2000s, this scorecard takes three core criteria — feasibility, desirability, and viability. It scores each criterion from 1 - 10 for every feature and takes a total to decide on the priority. 
+
+Feasibility
+Can we build this feature with the skills and resources available? Is it possible to make this particular product hypothesis fast and without hiring extra people? Do you have an available tech stack/tools/cloud storage to do it?
+
+Desirability
+Does this solve the pain for the customers? Do they want this feature enough to consider paying for it?
+
+Viability
+How much will users pay for this feature? What’s the (ROI)? Is there any unit economy behind this feature?
+
+feasibility, desirability, and viability example
+Using this framework, your team creates a spreadsheet with product features and puts a score for each parameter. Another way to use this framework is to evaluate MVP ideas for feasibility, desirability, and viability via a team discussion. 
+
+Ideas that have the most support from the team on those parameters can go right into the design sprint. Use the relevant people to help with the evaluation. For example, developers to look at feasibility or Product Marketing Managers to discuss desirability. This scorecard is pretty straightforward with clear pros and cons:
+
+Pros of using this framework: The flexibility of the FDV scorecard means it can be used for evaluating marketing initiatives, hypotheses for customer success teams, or MVP concepts. It works well for teams that don’t find rigid frameworks helpful or for a workshop, or discussion on the executive level. 
+
+Cons of using this framework: This approach relies a lot on knowledge of what the customer wants and how complex new features are. That is not always data that is readily available. 
+
+Weighted Scoring Prioritization
+
+This method follows a similar pattern to other frameworks on this list but with the significant addition of weighting how much of each category counts towards the final total. 
+
+The process starts by selecting the criteria/categories you’ll be using to rate the features. For example, you might select “user experience”, “sales value”, “strategic impact”, “user adoption” or any of the Acquisition, Activation, Retention, Referral, Revenue (AARRR) metrics.
+
+Next, you need to decide what importance you give to each category, adding a percentage value to each criterion (up to 100%). For example, during the early stages, you might focus on UX features that make an MVP usable. Each feature will have a score in those categories, from 1 (min impact) – 100 (max impact). Then you can now calculate the final score for each feature.
+
+weighted scoring example
+Pros of using this framework: The framework is customizable, which allows you to utilize the framework throughout an organization’s lifetime.
+
+Cons of using this framework: Sometimes the weighting percentages can be hard to decide on. It requires PMMs & PMs to understand how each feature will influence user adoption across the whole product ecosystem. 
+
+Cost of Delay
+
+This framework is unique in that it focuses exclusively on monetary value. The framework is designed to calculate the cost of not producing the feature immediately. It’s relatively straightforward to understand, although the calculation itself does require careful consideration. 
+
+The calculation is as follows:
+
+Estimated revenue per unit of time, for example, how much could be billed over a month-long period if the feature existed.
+
+Estimated time it will take to complete the development of the feature.
+
+Divide the estimated revenue by the estimated time to give you the cost of delay.
+
+Cost of Delay example
+Pros of using this framework: This is a highly effective way of prioritizing feature backlogs. It is also useful in helping team members align around the value of features in terms of ROI.
+
+Cons of using this framework: For new companies or brand-new features, the revenue estimate is very much based on a gut feeling as there is no hard data to base the estimates on.
+
+Product Tree
+
+Luke Hohmann introduced the concept of ‘Prune the Product Tree’, in his book Innovation Games: Creating Breakthrough Products Through Collaborative Play. During a Product Tree session, stakeholders use stickers, markers, or digital equivalents to place features, ideas, and enhancements on different parts of the tree according to where they think they belong in terms of product development priorities. 
+
+Product Tree Prioritization Technique
+Roots: Represent the core technologies, systems, and cap
+
+abilities that support and enable the product's basic functions. These are fundamental aspects without which the product cannot function.
+
+Trunk: Symbolizes the product's main functionalities or the current set of features. It is the stable and established part of the product that supports further growth.
+
+Branches: Illustrate different areas of the product that can grow and expand, such as new feature sets, product lines, or major enhancements.
+
+Leaves: Stand for specific features, ideas, or small enhancements that can be added to the product. These are often more visible to the end-users and can directly contribute to user satisfaction and product value.
+
+Which model should I use?
+
+Knowing which prioritization framework to use is tough! The Kano model is useful for making customer-centric decisions and focus on delight, but it can take time to carry out all the questionnaires needed for your insights to be accurate and fair.
+
+Many people like the RICE scoring system as it takes confidence into account in a qualitative way, but there are still a lot of uncertainties.
+
+MoSCoW focuses on what matters to both customers and stakeholders, which is particularly useful for Product Managers who struggle with managing stakeholder expectations. However, there’s nothing stopping you from putting too many items in ‘Must have’ and overextending your resources.
+
+Of course, these aren’t the only prioritization techniques out there, and many talented Product Managers have their own ways of doing things. All you can do is test, test, and test again!
+
+How to prioritize individual tasks: Tips from busy product leaders
+
+Microsoft: Applying the Eisenhower Matrix to a busy inbox
+
+Microsoft Product Manager Anusha Bahtnagar, uses a prioritization technique called The Eisenhower Matrix to prioritize what comes into her inbox. As a Product Manager working with cross-continental teams, it’s common to wake up to a full inbox.
+
+quote anusha bahtnagar
+The Eisenhower Matrix effectively sorts your tasks/emails into four categories, and presents a solution.
+
+Important and Urgent: Top priority tasks that require your urgent attention (eg, crisis management tasks.)
+
+Urgent and Not Important: Time-sensitive tasks that could be handled by someone else. Delegate these tasks.
+
+Important and Not Urgent:
+Tasks that you definitely need to do, but they can wait. Schedule these for the future.
+
+Not Important and Not Urgent: Declutter and eliminate tasks.
+
+Amazon and Google: Making customer-focused prioritization decisions
+
+A common theme across many companies is that the customer comes first. The same goes for prioritization.
+
+Asal Elleuch, a Senior Product Manager for Amazon Prime, calls prioritization “a never-ending and iterative process.”
+
+Focusing on the customer gives you an incredibly useful yardstick for prioritization. After all, your company’s values should already be customer focused. And most of your stakeholders should also be aligned on The Why. 
+
+The Product vision should also be heavily influenced by customer needs.
+
+Being customer-focused in your prioritization will help keep your decisions aligned with everything else. Like one big customer-centric puzzle!
+
+Google product teams achieve this by using North Star Metrics. Your North Star Metric can be any metric or action that provides the most value to the customer. For instance, Spotify’s North Star Metric might be clicking ‘play’ on a song. Google Search’s North Star Metric might be clicking on a search result.
+
+You can then base your prioritization decisions around that metric. Whichever updates/features/bug fixes will have a greater impact on that metric has priority.
+
+HSBC: The art of making impossible product decisions
+
+To help make decisions, with so many outside influences and an interlocking web of things to consider, Product Leader Mariano Capezzani came up with his own prioritization system.
+
+Broken down into 4 steps, it gives you a solid footing for making quality prioritization decisions.
+
+Know the context. Understand things like how this task/feature fits with the KPIs of the company, the market trends, and related upcoming regulations.
+
+Understand the need. Learn to differentiate between what customers are asking for and what they really need.
+
+Consider the execution. Are you aware of the intricate network of dependencies and their interlock that are needed to deliver something?
+
+Arrange the sequence. Apply a quick acid test to ensure it fits your criteria (contributes to company goals, benefits a market, etc.)
+
+Common Product Prioritization Mistakes
+
+Mistake 1: No agreed-upon scoring guide
+
+What does an impact score of “5” mean? A 1% growth or 10%? In conversion rate or MRR? Do other teammates think the same?
+
+Without an agreed-upon scoring guide, you can’t make an apples-to-apples comparison between initiatives. This makes prioritization pointless. To make matters worse, it increases the likelihood of conflicts between team members, as you are essentially disguising opinions as objective decisions. 
+
+How to fix it
+
+Develop a shared scoring guide for your prioritization criteria. Define what each level entails with a concrete description and examples. Here’s an example guide for determining the confidence level:
+
+Confidence Level graph
+A scoring guide can be created for any prioritization method, as long as it is:
+
+Specific to your product and team context
+
+Objective and clear
+
+It’s important to point out that even with a guideline, there will still be disagreements — and that’s okay. Team members should be comfortable explaining their decisions and giving feedback to others. These discussions will help your team uncover blind spots and build alignment.
+
+Mistake 2: Mixing discovery and delivery
+
+Software development isn’t the only thing that takes time when building a product. So do problem analysis and solution design, commonly referred to together as product discovery.
+
+However, discovery tasks usually get either:
+
+Lumped in with development work → Creates messy dependency issues.
+
+Left out of the prioritization process → Introduces a selection bias from the start.
+
+How to fix it
+
+Divide your product development into discovery and delivery, and prioritize the two backlogs separately. This is called Dual Track Development. 
+
+Do note that having separate tracks doesn’t mean you should have separate teams. For any given project, the same team should carry out both discovery and delivery work to maximize quality and velocity. 
+
+Discovery and Delivery graphic
+Mistake 3: Recency bias
+
+Your team will always add items to the backlog faster than it will clear them. Over time, you will build up a long backlog with items from the previous century (year). Because it’s human nature to favor shiny new ideas (a.k.a. recency bias), old items tend to get forgotten for no good reason. 
+
+How to fix it
+
+As new evidence emerges, situations change, and your team’s estimation skills improve, you must constantly review old items to correctly prioritize the backlog.
+
+Track the “freshness” of each item. When something has not been updated for longer than X period of time, groom it again using the latest information. If it’s no longer relevant, it’s time to remove it permanently.
+
+Mistake 4: Not considering constraints 
+
+Product development is inherently messy. Besides the core value-vs-cost consideration, there are also dependencies, deadlines, skill fit, strategic fit, and other constraints that influence your prioritization decisions.
+
+No matter how ruthless you are with prioritization, you can’t simply dismiss these constraints. However, you also shouldn’t let them override your core prioritization criteria every single time. 
+
+Teams that lack a good system to deal with these external factors often end up losing confidence in their prioritization processes altogether. 
+
+How to fix it
+
+Define a set of rules to work with these constraints, and make them part of your prioritization system.
+
+Here are a few examples:
+
+Time-sensitive projects → Set aside a fixed amount of resources each month to fast-track projects with non-negotiable deadlines (e.g., scheduled launch events, seasonable campaigns). Everything else will follow the regular process, even if it means not getting done at all.
+
+Dependencies → A project blocked by other tasks will resume its position in the backlog as soon as the blocker is removed. However, it shouldn’t interrupt projects that have already started.
+
+Strategic alignment → Assign more weight to projects that align with the company’s strategic priorities. This can be done with the Weighted Scoring method.
+
+When you have consistent guidelines, people will trust the system, knowing that every decision is made objectively. 
+
+Mistake 5: Over-complicating the process
+
+Perfect prioritization does not exist. The information you use for prioritization is simply a set of estimations and estimations are always wrong. There is no need to treat your prioritization process like you’re planning a rocket launch. 
+
+Prioritization is an exercise that helps you maximize your execution value. If you constantly direct more resources toward prioritization than execution, you are doing it wrong. 
+
+Sometimes product teams spend months debating the relative value between small features when they could have shipped them all in the time lost.
+
+How to fix it
+
+Timebox your prioritization discussion. If your team gets stuck comparing initiatives, introduce a tie-breaker rule. For example, items that entered the backlog first go first. 
+
+The point is, trivial differences will not matter in the long run, and if you never decide what goes first you’ll never get started.
+
+Mistake 6: Not iterating the prioritization system 
+
+No one gets prioritization right the first time. Even if you are satisfied with your current system, there will always be room for improvement if you look hard enough. Additionally, just because something works today doesn’t mean it’ll continue to work as the company scales. It’s dangerous to think you can create a prioritization system that requires minimal iterations. 
+
+How to fix it
+
+Treat your prioritization system (and other internal processes) like your product. Monitor how it’s working and iterate continuously. Because the “users” in this case are your team members, there should be an open channel for everyone to give feedback.
+
+Generally speaking, frequent and small iterations are better than drastic revamps. However, be aware that:
+
+It takes time for a new process to show its effects.
+
+A new process can hurt productivity in the short term.
+
+Not every problem has an easy solution.
+
+To avoid interrupting team momentum with ad-hoc fixes, I recommend doing a quarterly or bi-yearly process review to go over all the feedback and discuss solutions as a team.
+
+Person working
+Bonus: Management interference
+
+Having to rearrange your backlog due to management input, usually without a convincing reason, is one of the most frustrating yet common things that can happen to a product team. This is often due to a disconnect between company strategy and product strategy.
+
+How to fix it
+
+Such a discrepancy exists for a combination of reasons:
+
+Management mistakes tactics for strategies. It dictates solutions instead of creating a direction for potential solutions.
+
+Management doesn’t explain the “why” behind a strategy.
+
+There is no clear process for teams to share learnings and evidence (both horizontally and vertically).
+
+There is no agility in the company strategy, even when it no longer makes sense.
+
+If you are a product leader (CPO, director, team lead, etc.), you have a critical responsibility here to bridge the gap between individual teams and senior management. Make sure to communicate information bi-directionally and fix misalignment proactively. A good way to start is by examining:
+
+How are we sharing insights other teams should know?
+
+Does every team have the same access to key information (ICP, positioning, data dashboard, etc.)?
+
+What information does my team want to know but is out of their reach?
+
+FAQs
+
+What is the best framework for prioritizing product features?
+
+There is no ‘best framework’. There is only the best framework for a given prioritization task. Now that you’re familiar with the frameworks that product experts use day-to-day, look back at your OKRs and decide which model will turn your backlog into the right product at this moment in time. 
+
+Who prioritizes the backlog?
+
+The Product Manager is typically responsible for finalizing the prioritization, balancing stakeholder interests, user value, and feasibility.
+
+Developers provide input on feasibility and effort estimates to help the PM. Stakeholders help PMs and developers understand business value and promote strategic alignment.
+
+What is the best prioritization tool? 
+
+There are tons of great prioritization tools out there, like our free template pack, which includes templates for 5 prioritization models. 
+
+Whatever tool you use, the most important thing is to align around the model you’ll use and make sure everyone is using the same model in pursuit of the same OKRs, and make sure to clarify priorities within the timeline of your product roadmap so everyone is aligned.
+
+What are the steps involved in using a prioritization framework?
+
+Follow these general steps whenever using a prioritization model: 
+
+Identify the moment: Identify the tasks in the backlog, strategy, and current OKRs.
+
+Decide on a framework that will help you reach your team’s goals and apply it to the tasks in the backlog.
+
+Try other frameworks and see if the same features came in first place.
+
+How often should you review your prioritization framework?
+
+Your team should review its priorities regularly. The cadence of that review depends on your team’s needs. How often is not important as long as it’s consistent. Always re-evaluate your prioritization framework if business objectives change. 
+
+Can you use multiple prioritization frameworks?
+
+Yes! In fact, some frameworks pair together as well as a nice chablis and fresh oysters:
+
+Pair subjective and quantitative frameworks for contrast. For example: Cost of Delay + Kano model will balance revenue and customer delight.
+
+Pair bird’s eye views with detailed analysis. Some frameworks are based on a general sense of the market and user trends while others on careful research. Cover your bases by using both. For example: Weighted Scoring + MoSCoW.
+
+Prioritization in product management is less about ticking off tasks and more about leading your product in the right direction. It is a crucial part of framing the priorities within your product roadmap. It is a continuous process of assessment, reassessment, and realignment with your product goals and market needs. 
+
+
+Imagine the scene: your innovation team is excited about next year's product upgrades. The ideas have been flowing and your people have come up with lots of new features for your firm's best-selling product.
+
+But, as project leader, you have some doubts. The cost of all the extra features will be considerable, and it will be very tough to deliver the finished product on budget and on time.
+
+This is where a tool like the Kano Model can be useful. It's a simple and versatile technique for deciding which features a product or service should have, based on how much they will satisfy the customer.
+
+In this article, we look at the origins and details of the Kano Model, and explore a five-step guide for using it to help you to develop a product or service that will delight your customers – without bankrupting your business!
+
+What is Kano Model Analysis?
+The Kano Model of product development and customer satisfaction was published in 1984 by Dr Noriaki Kano, professor of quality management at the Tokyo University of Science. [1]
+
+Kano says that a product or service is about much more than just functionality. It is also about customers' emotions. For example, all customers who buy a new car expect it to stop when they hit the brakes, but many will be delighted by its voice-activated parking-assist system.
+
+Adding one particularly attractive feature like this could delight customers and increase sales without costing significantly more. On the other hand, constantly introducing new features to a product can be expensive and may just add to its complexity without boosting customer satisfaction.
+
+The model therefore encourages you to think about how your products relate to your customers' needs, while moving from a "more is always better" approach to product development to a "less is more" approach.
+
+How Does the Kano Model Work?
+The model assigns three types of attribute (or property) to products and services:
+
+1. Threshold Attributes (Basics). These are the basic features that customers expect a product or service to have.
+
+For example, when you book into a hotel, you'd expect hot water and a bed with clean linen as an absolute minimum.
+
+2. Performance Attributes (Satisfiers). These elements are not absolutely necessary, but they increase a customer's enjoyment of the product or service.
+
+Returning to our example, you'd be pleased to discover that your hotel room had free superfast broadband and an HD TV, when you'd normally expect to find paid-for wi-fi and a standard TV.
+
+3. Excitement Attributes (Delighters). These are the surprise elements that can really boost your product's competitive edge. They are the features that customers don't even know they want, but are delighted with when they find them.
+
+In your hotel room, that might be finding the complimentary Belgian chocolates that the evening turn-down service has left on the bed.
+
+Figure 1, below, illustrates how the presence (or absence) of each of the three attributes in a product or service can affect customer satisfaction.
+
+Figure 1 – The Kano Model
+Kano Model Analysis - Delivering Products That Will Delight
+
+Diagram reproduced with permission from the Japanese Society for Quality Control. Original reference: ''Noriaki KANO, Nobuhiko SERAKU, Fumio TAKAHASHI, and Shin-ichi TSUJI Attractive Quality and Must-Be Quality, Journal of the Japanese Society for Quality Control, Vol. 14, No. 2, pp. 147-156, 1984."
+
+You can see that, if a product's features don't meet a customer's Threshold Attributes, his or her satisfaction levels will be very low. However, even if you fully deliver on these, you won't impress customers that much.
+
+Most products compete on Performance Attributes, where a customer weighs up one product against another and judges satisfaction by the availability of various features.
+
+But she may discover an Excitement Attribute that really appeals to her, and gives her high satisfaction, even if it isn't perfectly implemented.
+
+Figure 2, below, shows how customers' reactions to certain features (or the lack of them) can also have a negative or zero effect on satisfaction levels.
+
+Figure 2 – A Development of the Kano Model
+Kano Model Analysis - Delivering Products That Will Delight
+
+In the bottom right quadrant, you can see that a product with just Threshold Attributes, even if it has a number of them, may not even lead to an indifferent level of customer satisfaction.
+
+Customers begin to find your product attractive when you offer Performance Attributes, and it's along this line, in the top right quadrant, that most organizations position their products in the market.
+
+Excitement Attributes are the "wow factor" features that can give you a competitive advantage. These features can represent a good return on investment, because you don't need many of them to generate high levels of customer satisfaction.
+
+Note:
+It's important to consider the nature of your business, and the pace of change in your industry: today's Excitement Attribute can very quickly become tomorrow's Threshold Attribute!
+
+For example, touch-screen technology in smartphones and tablets was an Excitement Attribute when it was introduced by Apple in 2007, but it soon became a Threshold Attribute common to many electronic devices.
+
+
+How to Use the Kano Model
+Before you apply Kano Model Analysis, be sure to find out what your customers really value. Never assume that you know! Ask them what they like, what they love, and what they dislike.
+
+Our article on market research can help you with this process. Approaching your customers directly, using surveys or focus groups, for example, is also useful for keeping track of their changing expectations.
+
+Tip:
+Make sure that, when you choose customers to give you feedback, you pick those who are typical of the market that you want to sell in.
+
+
+Then, follow these five steps:
+
+Research and brainstorm all of the possible features and attributes of your product or service, and everything you can do to please your customers.
+Classify these as Threshold, Performance or Excitement Attributes and add a fourth type, Not Relevant. These are the things that don't add value because customers don't care about them.
+Make sure that your product or service has all of the essential Threshold Attributes. If necessary, eliminate some Performance Attributes so that you can include these features.
+Assess the Excitement Attributes, and think about how you can incorporate some of them into your product or service. Again, if necessary, cut some Performance Attributes, so that you can afford to invest in your Excitement Attribute.
+Choose the Performance Attributes that you can deliver at a competitive price, while still maintaining an acceptable profit margin.
+Tip:
+Involve your customers in each of the five steps, above. That way, you get their insights all the way through the process.
+
+
+Key Points
+The Kano Model of product development and customer satisfaction was published in Japan in 1984 by Noriaki Kano, Tokyo University of Science's professor of quality management.
+
+The model assigns three attributes to products and services:
+
+Threshold Attributes. These are the basics that customers expect.
+Performance Attributes. These increase a customer's enjoyment but aren't essential. Some of these may need to be scaled back, so that you can deliver Threshold and Excitement Attributes.
+Excitement Attributes. These are the surprise elements of a product or service that delight customers.
+Understanding your customers' experiences and expectations, and effectively generating innovative ideas for improving your product or service, are key to carrying out Kano Model Analysis successfully.
+
+
+Weighted Shortest Job First (WSJF)
+What is Weighted Shortest Job First (WSJF)?
+Weighted Shortest Job First (WSJF) is a tool used in the Scaled Agile Framework (SAFe) to help teams prioritize a list of initiatives. A team calculates each initiative’s score as the cost of delay divided by the job’s size or duration. The team then prioritizes those items that receive the highest ratings.
+
+How WSJF is used?
+Any team in an organization can use the Weighted Shortest Job First approach to sequence any initiatives. Marketing teams can use it to determine which projects or campaigns will give the company the highest return on investment. Product teams can use it to decide which items to prioritize on the product backlog.
+
+Download the product manager's guide to prioritization  ➜
+How is WSJF calculated?
+Often, Weighted Shortest Job First is a simple formula: Cost of Delay divided by Job Duration (or Size).
+
+Step 1: Calculate Cost of Delay
+To arrive at the Cost of Delay figure, however, we will need to do a few additional calculations.
+
+As the training company Scaled Agile explains, Cost of Delay in the WSJF framework is three components:
+
+1. Value to the business and/or user
+
+2. Time criticality
+
+3. Risk reduction and/or opportunity enablement
+
+To calculate the Cost of Delay, you will create a scale for each component (for example, 1 to 10) and add them up. The combined number of all three parts will equal your Cost of Delay score.
+
+Step 2: Calculate Job Duration (or Size)
+Next, you will set a scale for the job duration or size of each initiative on your list. The scale can be different from your Cost of Delay scale (for example, 1 to 20) as long as you are applying it consistently to all initiatives.
+
+As TechBeacon explains, calculating job duration in WSJF can be difficult. Your current resource levels, dependencies, skill sets, and other factors can make a project more time-consuming or taking longer at your company than it might at others.
+
+But your team will need to agree on a methodology for assigning a number value to each initiative on your list. When determining job duration or size, the lower-number items will become your higher-priority initiatives.
+
+Step 3: Divide Cost of Delay by Job Duration (or Size)
+Weighted Shortest Job First Framework Template
+
+The final step is to divide your Cost of Delay by Job Duration for each initiative on your list. Prioritize the initiatives with the highest overall scores at the top of your list.
+
+For example, let’s assume you’ve scored one initiative on your list with a Cost of Delay of 9 and a Job Duration of 1. That initiative’s WSJF score will be 9, or 91.
+
+Now assume you’ve scored another initiative this way: Cost of Delay = 7 and Job Duration = 4. That initiative’s WSJF score is only 1.75, or 74.
+
+As you can see, initiatives with higher Cost of Delay scores earn a higher position on your WSJF list. Initiatives with lower Job Duration scores also receive a higher WSJF priority.
+
+How to Use Weighted Shortest Job First to Prioritize Items on a Product Roadmap
+When several initiatives compete for limited time and resources on your product roadmap, Weighted Shortest Job First helps you determine which items to prioritize.
+
+You can follow the steps outlined on this page, calculate a score for each item on your backlog, and then select the highest-scoring items for the top positions on your roadmap.
+
+The product backlog is an essential product management tool: It captures detailed product decisions and directs the work of the development team. The latter requires it to be prioritised or ordered. But how can you prioritise a product backlog when everything seems equally important? This article shares my answer. It recommends taking four steps to get to an effective, prioritised product backlog. Listen to this article: Audio Player 00:00 00:00 Use Up/Down Arrow keys to increase or decrease volume. Step 1: Ensure that you know who the product is for and why people will want to use it I’ll never forget the day when I suggested to the product manager of a brand-new healthcare product to prioritise its features. The individual looked at me slightly bewildered and replied, “I can’t. They are all high-priority.” Prioritisation requires deciding how important an item is. If everything is high priority, everything is equally important. This means in effect that nothing is a priority. But without clear priorities, the development team lacks direction, and there is only a slim chance of creating a successful product. A common root cause of not being able to prioritise a product backlog is a lack of understanding of who the users of the product are and what specific value it should create for them. I find it not uncommon that features are added to the product backlog because a senior stakeholder demands it (HIPPO syndrome) or someone thinks it is a good idea (“let’s brainstorm some user stories”). But a product exists to generate value for the users and for the company providing it. If it is not clear who the users are and why they would want to interact with the product, it will be hard to decide which items should be in the product backlog and how important they are. To mitigate the risk of adding the wrong items to the product backlog, ensure that you have a validated product strategy in place, no matter if you look after a brand-new or as an existing product. Such a strategy should clearly state the following: The users and customers of the product so that it is clear who will benefit from it and who won’t; The main problem the product should address or the primary benefit it should offer, or the main goal users will want to achieve with it; The three to five features that will make it stand out from the crowd; The specific benefits it should create for the business. Let’s look at a brief example and say that I want to create a product that helps people eat healthily. Then I could choose to address middle aged men who suffer from unhealthy eating habits and who don’t exercise enough. The benefit might be to reduce the risk of developing type-2 diabetes. The standout features might be to measure food sugar levels, analyse the user’s eating habits, and integrate with leading smart scales. The business goals, finally, might be to diversify my company and open up a new revenue stream. Additionally, you should be confident that your strategy is correct, and you should have data to support your view. In other words, you should have addressed the key assumptions and risks in the product strategy, and you should have carried out the necessary validation work. A tool like my product vision board helps you capture and validate your product strategy. Step 2: Describe the outcome or benefit the product should create in the next few months Having a product strategy in place is great, but it is not enough to effectively prioritise a product backlog. What’s required is a specific product goal that is connected to the strategy and creates the right context to decide which backlog items are more important and which ones are less. To create such a goal, ask yourself which outcome or benefit your product should achieve in the next, say, three to six months. What are the desired user and business benefits you want to create? Make sure that this goal is in line with the product strategy and that it helps create the desired user and business benefits. An example based on the sample strategy above would be “help the users understand their eating habits and acquire an initial user base.” (Note that I have chosen a compound goal that captures the desired user and business benefits.) I like to take this idea further, derive several product goals from the product strategy for the next 12 months, and capture them on a product roadmap. This puts the goal chosen in context and communicates how the product is likely to evolve over a longer period. If you have a product roadmap, then ensure that it implements the overall product strategy. Consider reworking it so that it clearly states the desired outcomes your product should achieve. Step 3: Remove all items from the product backlog that do not support the desired outcome Next, use the product goal you have chosen to delete all items from the product backlog that do not serve it. While this approach might sound radical, it ensures that your backlog becomes concise and focused. It avoids having items on the backlog that are speculative and may not create value, and maybe even more importantly, it facilitates prioritisation. If you believe that removing the product backlog items is going to be very difficult, if not impossible, then this may indicate that you lack the necessary empowerment and/or that the stakeholders do not buy into the overall product strategy and the specific product goal you have chosen. Involving the individuals in the decision-making process can help address both issues. This allows the stakeholders to voice their ideas and concerns, and it makes it more likely that they understand and support important product decisions. If you plan to decide together with the stakeholders, then invite them to a meeting. Carefully prepare the session and choose a decision rule, for instance, consent. Additionally, ask your Scrum Master or another skilled facilitator to help run the meeting so that everyone is heard, and nobody dominates. (I offer more advice on securing stakeholder buy-in and decision-making in my book How to Lead in Product Management.) Step 4: Prioritise the remaining product backlog items Now prioritise the remaining product backlog items. I recommend that you prioritise a new or significantly changed product backlog initially by risk, taking into account the user, technology, and business-related risks. Assess all backlog items together with the development team and move those to the top that carry the highest risk. This approach accelerates learning and it avoids failing late when there are less options to change course. Finally, ensure that the high-priority items are “ready“, that the development team and you have a shared understanding of them, that the team can implement them in the next sprint, and that they are testable. The Moral of the Story You might be wondering what was up with the healthcare product I mentioned earlier. The prioritisation difficulties were indeed rooted in the lack of a clear and agreed product strategy and the absence of a clear, focused goal for the initial version. Consequently, the offering launched was more like a maximum viable product than a minimum one. Unsurprisingly, it pretty much bombed, which resulted in the company losing significant market share and people leaving the enterprise. As this story shows, it is crucial to have an overall product strategy in place before you decide which functionality your product should offer and in which order it should be implemented. In other words, make sure that you create an effective product strategy first before you worry about the product details and that you systematically connect the product backlog to the strategy.
+
+Getting the product roadmap prioritisation right is a common challenge. Which items should be addressed first? Which ones can be delayed? This article answers these questions and helps you effectively prioritise your product roadmap. Before You Start Prioritising … Before you order the roadmap items, double-check that you have a validated product strategy in place. You should be able to confidently say why users would want to use your product and why it is worthwhile for your company to invest in it. In other words, you should have valid answers to the following questions: Which user problem will the product solve, or which benefit will it provide? How will it create value for the business? For example, will the product directly generate revenue, help market and sell another product or service, reduce cost, or develop the brand? If you haven’t nailed the answers, then do not continue the roadmapping effort. Instead, carry out the necessary product discovery and strategizing work. Otherwise, your roadmap may be built on false assumptions. Getting the prioritisation right will then be virtually impossible. Create a Compelling Narrative To prioritise the product roadmap, consider in which life cycle stage your product is. As long as it hasn’t reached maturity, a product has to constantly move forward: initially to get to launch, then to reach product-market fit, and finally to sustain growth. At these life cycle stages, your product roadmap should tell a convincing story about the likely development of your product; it should describe the journey you want to take it on in order to create the desired value for the users and business. To get the prioritisation right, take the following steps: Determine how you can meet the user and business goals stated in your product strategy. What is the best way to achieve them? How can you break them down into smaller, intermediate goals? Order the newly created goals so that each one is a logical progression, a further step towards the overall user and business goals, considering any dependencies between the goals. For a brand-new product, this might mean that you start with user acquisition followed by activation, retention, and finally revenue generation, depending on your product’s underlying business model. For a product in the growth stage, you might find that you first have to remove technical debt before you can enhance the user experience and increase conversion. If there are items that were on the product roadmap prior to the prioritisation, then check if they help you reach any of the newly created goals. If that’s the case, then assign them to the appropriate objective. Otherwise, either discard the item or investigate if changing the goals to accommodate the items would be beneficial. A cost-benefit analysis might help you with this. Whatever you do, make sure that your roadmap tells a cohesive, meaningful story that clearly communicates how the product will create value. Determine the Cost of Delay Once your product has entered the maturity stage, you usually don’t want to take it on another big journey, unless you decide to extend its life cycle. Instead, you stay where you are, protect your product’s position, and maximise the return it generates. Consequently, there are often smaller, unconnected goals that need to be addressed, like sustaining engagement or preventing churn by offering incremental enhancements or bug fixes. But these objectives often lack clear connections, and they don’t form a logical sequence or narrative. Faced with such a challenge, I recommend using cost of delay to get the prioritisation right. To put it simple, ask yourself how big the loss or severe the disadvantage is likely to be when you delay each item. For example, if you are unsure whether you should first enhance the user experience to sustain engagement or fix bugs to prevent churn, then identify the impact of delaying each goal. Once you’ve determined the cost of postponing the items, address the one with the biggest cost of delay first, then the item with the second biggest cost, and so forth. This should give you the right prioritisation. Don’t Let Powerful Stakeholders Dictate the Prioritisation The two approaches described above assume that the user and business needs together with the product’s life cycle stage determine the prioritisation of your product roadmap—not the HIPPO, the highest paid person’s opinion. Don’t get me wrong: I am a big advocate collaborative product roadmapping. Do actively involve the key stakeholders and development team members, encourage people to share their ideas and concerns, attentively listen to them, and build shared agreement, as much as possible. But if you are faced with individuals requesting or even demanding that their interests must be first addressed, then do not simply give in. Don’t appease them and don’t avoid a difficult conversation. Instead, patiently listen to them and thank them for telling you about their idea. Then invite them to the next product roadmapping workshop so they can share their request with the other stakeholders and jointly decide if and when it can be addressed. And if the matter is urgent, get everyone together as soon as possible. Being a product professional means making difficult choices, and prioritisation entails saying no. This is an important part of our job, whether we like it or not.
+
+
+
+Work Prioritization in Team Backlog
+In the world of Agile development, a product backlog is a critical tool used to maintain a list of work items needed to develop and maintain a product. It serves as the source of truth for teams and is updated daily as required.
+
+This post delves into the most efficient methods to tackle Team Backlog and reveals vital best practices that can be adopted during various phases of your learning journey. By adhering to these fundamental techniques, you can develop the competence and awareness necessary to execute effective team strategies. Nonetheless, it's crucial to recognize that Team Backlog is only a fragment of the broader context. To attain a comprehensive insight into your team's present process status, we suggest using our free agile assessment for Team Agility.
+
+Team Backlog and The Learning Journey
+At Lean Agile Intelligence, we recognize Team Backlog as the team's ability to envision success and effectively communicate it. We divided the learning journey into 4 different stages: Developing, Emerging, Adapting, and Optimizing. In the following sections, we will discuss each stage in detail as well as provide practical tips and techniques to help you extend your skills in this area. 
+
+ 
+
+The-GO-Product-Roadmap-Explained-team-backlog-tips-for-developing-maturity-in-team-backlog-and-work-prioritization.webp
+
+Source - The GO Product Roadmap
+
+Developing
+Teams that are “developing” an understanding of the value of Team Backlog and adopting the foundational techniques should focus on the following improvements
+
+The What: It contains all work required to be completed by the team 
+
+The How: It’s important to put ALL work the team is or potentially could work on including but not limited to new features, stories, maintenance, support issues, continuous improvement items, spikes, etc.
+
+The What: It is actively managed and seen as a dynamic list prioritized by value
+
+The How: The Team Backlog is not meant to be all the work needed to complete a project but instead an emergent list of items that is updated daily as needed but minimally per sprint. As the team gets feedback at sprint reviews from customers, stakeholders, etc; the backlog gets updated accordingly.
+The What: Easily visible and transparent to all stakeholders and team members
+
+The How: Everyone inside the team and any parties interested in the team’s work should be able to see what is in the backlog. If you are using physical space, anyone visiting the team area should be able to understand team progress and updates just by Big Visible Information Radiators on the wall including but not limited to Scrum/Kanban boards, Backlog, Burn-down/Burn-up, Release Forecasts, Impediments, Metrics, etc. If you are using a digital tool, ensure key stakeholders understand your taxonomy and know where to find the above artifacts.
+ 
+
+team-backlog-tips-for-developing-maturity-in-team-backlog-and-work-prioritization-2.png
+
+ 
+
+Emerging
+Teams that are “emerging” beyond the foundational techniques of Team Backlog and are embracing it as they become more proficient, should focus on the following improvements
+
+The What: Only a small portion (i.e., three sprints or less) of the Team Backlog is committed
+
+The How: Since backlogs are not project plans but emergent ideas and work for the team, teams commit to small batches of work and forecast beyond the commitment using the best data they have available. In Scrum, teams often using historical velocity to forecast. In Kanban, and even in Scrum, teams will often use probabilistic forecasting.
+ 
+
+The What: Committed backlog items (i.e., User Stories) have a description, order, estimate, and a clear explanation of the value they deliver
+The How: In order to achieve the criteria in this “Emerging” stage, it’s a good idea to establish a working agreement called a “Definition of Ready.” A good starting point is Bill Wakes “INVEST” which stands for Independent, Negotiable, Valuable, Estimable, Small, and Testable. His original post on the topic can be found here
+The What: Calls out dependencies
+The How: Add dependencies to your Definition of Ready. For a more in-depth reading of this topic, read this post by Robert Galen.
+
+ 
+
+*   *   *   *   *   *
+
+"Backlog refinement is a fundamental activity for any agile team."
+
+*   *   *   *   *   *
+
+ 
+Adapting
+Teams that are “adapting” the Team Backlog practice to extract the full benefit, should focus on the following improvements
+
+The What: Collective ownership and real-time collaboration among all team members on backlog items (i.e., User Stories)
+
+The How: Backlog items are owned by the entire team. This concept of collective ownership is often difficult for teams and organizations to adopt. Many of the Agile Manifesto authors were practitioners of a software development methodology known as “Extreme Programming” The following is a quote about collective ownership from ExtremeProgramming.com
+
+“The way this works is for each developer to create unit tests for their code as it is developed. All code that is released into the source code repository includes unit tests that run at 100%. Code that is added, bugs as they are fixed, and old functionality as it is changed will be covered by automated testing. Now you can rely on the test suite to watchdog your entire code repository. Before any code is released it must pass the entire test suite at 100%.”
+
+ 
+
+Kanban_board-elements-team-backlog-tips-for-developing-maturity-in-team-backlog-and-work-prioritization.webp
+
+Source - What is Kanban? Explained for Beginners
+ 
+Optimizing
+Teams “optimizing” the knowledge sharing of the Team Backlog practice learnings across the enterprise should focus on the following improvements
+
+The What: A majority of the backlog items (i.e., User Stories) are independent items that can be delivered by one team without excessive coordination
+
+The How: Backlog items should be sliced vertically containing a full stack of skills to deliver an independent piece of value. Sometimes this is not possible due to the way teams are structured. In this case, teams often slice them too small so their team can deliver part of the work and will depend on another team to finish it. It’s not realistic to think there will never be any dependencies but keeping track of dependencies is the first step to eliminating them when possible. The focus should not be to manage them but remove them entirely. This may require a shift in team structure or require growing skills on both teams over time.
+
+ 
+

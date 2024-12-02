@@ -1,0 +1,9 @@
+streamlit
+azure-search-documents
+azure-ai-formrecognizer
+azure-ai-textanalytics
+openai
+pydantic
+aiohttp
+python-dotenv
+pyyaml
